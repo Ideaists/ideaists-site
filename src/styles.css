@@ -1,1 +1,50 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~font-awesome/css/font-awesome.css";
+
+/* smooth scroll  */
+body .smooth-container { scroll-behavior: smooth }
+body #arrow { scroll-behavior: smooth }
+body { position: relative }
+
+/* resets */
+#message:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 5px 10px 1px rgba(0, 0, 0, 0.075);
+  outline: 0 none;
+}
+
+
+/* hr syles  */
+#hr-a {
+    width:50%;
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), #f5f5f5, rgba(0, 0, 0, 0));
+}
+
+#hr-b {
+    width:80%;
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0,.5), rgba(0, 0, 0, .75));
+}
+
+
+ul {
+    list-style-type: none;
+}
